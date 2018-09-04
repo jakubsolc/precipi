@@ -1,0 +1,40 @@
+04.09.2018 1                       16.7 1 --- 04.09.2018                         16.7 1
+04.09.2018 1 2                     18.7 3 --- 04.09.2018                         18.7 3
+04.09.2018 1 2 4.1                   22.8 7.1 --- 04.09.2018                         22.8 7.1
+04.09.2018 1 2 4.1 0                 22.8 7.1 --- 04.09.2018                         22.8 7.1
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0     22.8 7.4 --- 04.09.2018                         22.8 7.4
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0   22.8 7.4 --- 04.09.2018                         22.8 7.4
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0 0 22.8 7.4 --- 04.09.2018                         22.8 7.4
+WebDriverError@chrome://marionette/content/error.js:178:5: Reached error page: about:neterror?e=dnsNotFound&u=http%3A//hydro.chmi.cz/hpps/hpps_srzstationdyn.php%3Fday_offset%3D0%26seq%3D307489%26x%3D13&c=UTF-8&f=regular&d=K%20serveru%20na%20adrese%20hydro.chmi.cz%20se%20nepoda%C5%99ilo%20p%C5%99ipojit. (Selenium::WebDriver::Error::UnknownError)
+	from UnknownError@chrome://marionette/content/error.js:483:5
+	from handleReadyState@chrome://marionette/content/listener.js:277:21
+	from handleEvent@chrome://marionette/content/listener.js:245:9
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/common.rb:81:in `new'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/common.rb:81:in `create_response'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/bridge.rb:168:in `execute'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/w3c/bridge.rb:535:in `execute'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/w3c/bridge.rb:57:in `get'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/common/navigation.rb:30:in `to'
+	from srazkomer.rb:18:in `<main>'
+@http://hydro.chmi.cz/login.htm:1:15: ReferenceError: hideSrzData is not defined (Selenium::WebDriver::Error::JavascriptError)
+	from @http://hydro.chmi.cz/login.htm:1:2
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/response.rb:69:in `assert_ok'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/response.rb:32:in `initialize'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/common.rb:81:in `new'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/common.rb:81:in `create_response'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/default.rb:104:in `request'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/http/common.rb:59:in `call'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/bridge.rb:168:in `execute'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/w3c/bridge.rb:535:in `execute'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/remote/w3c/bridge.rb:292:in `execute_script'
+	from /var/lib/gems/2.3.0/gems/selenium-webdriver-3.7.0/lib/selenium/webdriver/common/driver.rb:211:in `execute_script'
+	from srazkomer.rb:31:in `<main>'
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0 0 22.8 7.4 --- 04.09.2018 0 0 0                   22.8 7.4
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0 0 22.8 9.9 --- 04.09.2018 0 0 0 2.5                 22.8 9.9
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0 0 22.8 9.9 --- 04.09.2018 0 0 0 2.5 0               22.8 9.9
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0 0 22.8 9.9 --- 04.09.2018 0 0 0 2.5 0 0             22.8 9.9
+04.09.2018 1 2 4.1 0 0 0 0 0 0.3 0 0 0 22.8 9.9 --- 04.09.2018 0 0 0 2.5 0 0 0 0         22.8 9.9
